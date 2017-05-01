@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+h1,h2,h3{
+	line-height: 60px;
+	margin: 10px 0;
+	font-family: 'Georgia', Times, serif;
+	border-bottom: 3px solid #cccccc;
+}
+
+html, body {
+  height: 100%;
+  font-family: helvetica;
+  font-color: #777777;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 5px; 
+}
+.site-footer {
+  background: #666666;
+}
+
+
+#yourName{
+	border: 1px solid #cccccc;
+	float: left;
+	margin-top:20px;
+	margin-left: 230px;
+	font-family: Georgia, Times, serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #ffffff;
+	padding: 30px;
+	background-color: #4aaaa5;
+}
+
+#links{
+	clear: both
+	font-size: 50px;
+	float: right;
+	margin-top: 85px;
+	margin-right: 275px;
+}
+
+.wrapper{
+	border: 1px solid #cccccc;
+	border-bottom: 10px solid #4aaaa5;
+	margin-left: 110px;
+	clear: both;
+	background: #dddddd;
+	width: 1200px;
+	height: 500px;
+}
+.clearfix::after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+#picture{
+	/*position: absolute;*/
+	margin-bottom: 10px;
+	margin-right: 10px;
+	float: left;
+	border: 2px solid #cccccc;
+
+}
+#content{
+	line-height: 1.5;
+	color: #777777;
+}
+
+#aboutMe{
+	border: 2px solid #cccccc;
+	clear: both;
+	overflow: auto;
+	position: absolute;
+	margin-left: 120px;
+	margin-top: 40px;
+	padding: 40px;
+	text-align: inline;
+	background-color: #ffffff;
+	width: 650px;
+	height: 430px;
+	color: #4aaaa5;
+}
+#connect{
+	text-align: center;
+	border: 2px solid #cccccc;
+	float: right;
+	margin-top: 40px;
+	margin-right: 110px;
+	margin-bottom: 25px;
+	color: #4aaaa5;
+	padding: 15px;
+	background: #ffffff;
+}
+
+footer{
+	color: #ffffff;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	clear: both;
+	overflow: auto;
+	background: gray;
+	padding: 50px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea[type=message] {
+    height: 400px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+ }
+
+ #images{
+ 	position: relative;
+ 	margin-left: 30px;
+
+ }
